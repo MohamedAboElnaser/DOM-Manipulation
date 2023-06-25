@@ -89,7 +89,7 @@ holdBtn.addEventListener('click', function () {
       scors[current_player];
 
     //check if the current player win
-    if (scors[current_player] >= 12) {
+    if (scors[current_player] >= 100) {
       /**
     - stop the game
     - hide the dice
